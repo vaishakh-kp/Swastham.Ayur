@@ -216,8 +216,8 @@ input, select, textarea {
 			height: 100%;
 			z-index: -1;
 			background-attachment: fixed;
-			background-color: #1b6d03;
-			background-image: url("../../images/overlay.png"), url("../../images/bg.jpg");
+			background-color: #eaf5e6;
+			background-image: url("../../images/overlay.png");
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
@@ -294,7 +294,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgb(8, 8, 8);
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Philosopher', sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -334,7 +334,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: rgb(0, 0, 0);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Philosopher', sans-serif;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 0.75rem 0;
@@ -1121,7 +1121,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 0.75rem;
+			padding: 0 0 0 0.75rem0;
 			vertical-align: middle;
 		}
 
@@ -2218,7 +2218,7 @@ input, select, textarea {
 			.panel > *.color1 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background: #f3df9ebe;  /* fallback for old browsers */
+				background: #9fd4a4;  /* fallback for old browsers */
 															
 			}
 
@@ -3484,7 +3484,7 @@ input, select, textarea {
 			-webkit-flex-direction: column !important;
 			-ms-flex-direction: column !important;
 			flex-direction: column !important;
-			background-image: linear-gradient(0deg, rgba(248, 244, 244, 0.904) 70%, rgba(0, 0, 0, 0.175)) !important;
+			background-image: linear-gradient(0deg, rgba(248, 244, 244, 0.904) 70%, rgba(247, 245, 245, 0.781)) !important;
 			min-height: 25rem;
 		}
 
