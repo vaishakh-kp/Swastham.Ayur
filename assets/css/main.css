@@ -578,11 +578,11 @@ input, select, textarea {
 			}
 
 				form > .fields > .field.half {
-					width: calc(66% - 0.75rem);
+					width: calc(78% - 0.75rem);
 				}
 
 				form > .fields > .field.select {
-					width: calc(66% - 0.75rem);
+					width: calc(40% - 0.75rem);
 				}
 
 				form > .fields > .field.third {
@@ -604,7 +604,9 @@ input, select, textarea {
 					padding: 1.125rem 0 0 1.125rem;
 					width: calc(100% - 1.125rem);
 				}
-
+					form > .fields > .field.select {
+						width: calc(100% - 0.75rem);
+					}
 					form > .fields > .field.half {
 						width: calc(100% - 1.125rem);
 					}
