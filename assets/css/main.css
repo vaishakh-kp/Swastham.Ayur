@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@font-face {
+	font-family: myFirstFont;
+	src: url(sansation_light.woff);
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -899,7 +904,7 @@ input, select, textarea {
 		}
 
 		.image.filtered.tinted:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.137) 25%, rgba(227, 123, 125, 0.082) 50%, rgba(255, 228, 180, 0.082)), linear-gradient(0deg, rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.125));
 			background-size: 128px 128px, auto, auto;
 		}
 
@@ -3473,7 +3478,7 @@ input, select, textarea {
 		}
 			/* second page background Panel (Spotlight) */
 			.panel.spotlight.right .content {
-				background-color: rgba(255, 255, 255, 0.836);
+				background-color: rgba(255, 255, 255, 0.904);
 			}
 
 	@media screen and (max-width: 736px) {
