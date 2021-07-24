@@ -2272,8 +2272,8 @@ input, select, textarea {
 			.panel > *.color1 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background: #9fd4a4;  /* fallback for old browsers */
-															
+				/* background: #cbeece;  */
+				background: #9fd4a4;											 */
 			}
 
 			.panel > *.color2 {
@@ -2792,7 +2792,7 @@ input, select, textarea {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
 			background: #9fd4a4;
-			color: white;
+			color: rgb(7, 7, 7);
 		}
 
 		.panel.color2 {
@@ -3371,6 +3371,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			position: relative;
+		
 		}
 
 			.panel.banner .image img {
@@ -3419,6 +3420,7 @@ input, select, textarea {
 			-webkit-flex-basis: 40%;
 			-ms-flex-basis: 40%;
 			flex-basis: 40%;
+			
 		}
 
 	}
@@ -3438,6 +3440,7 @@ input, select, textarea {
 			-ms-flex-basis: auto;
 			flex-basis: auto;
 			height: 18rem;
+			
 		}
 
 		.panel.banner.left {
@@ -3464,7 +3467,7 @@ input, select, textarea {
 		-ms-align-items: -ms-stretch;
 		align-items: stretch;
 		position: relative;
-		background-color: rgb(255, 255, 255);
+		background: #cbeece; 
 		color: #000;
 	}
 
@@ -3527,7 +3530,7 @@ input, select, textarea {
 		}
 			/* second page background Panel (Spotlight) */
 			.panel.spotlight.right .content {
-				background-color: rgba(255, 255, 255, 0.904);
+				background: #cbeece;
 			}
 
 	@media screen and (max-width: 736px) {
@@ -3576,7 +3579,8 @@ input, select, textarea {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		height: 100%;
-		padding: 5rem;
+		padding: 4rem;
+		padding-left: 1rem;
 	}
 
 		@media screen and (orientation: portrait) {
